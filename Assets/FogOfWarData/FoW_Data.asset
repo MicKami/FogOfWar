@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cf3f53cd3e8b4499c4159ed1bc177f, type: 3}
+  m_Name: FoW_Data
+  m_EditorClassIdentifier: 
+  <Grid>k__BackingField:
+    <Size>k__BackingField: {x: 64, y: 36}
+    <CellSize>k__BackingField: 1
