@@ -1,3 +1,4 @@
+
 # FogOfWar
 This Unity project is an implementation of a popular gameplay mechanic found in many strategy games.
 Inspired by Riot Games [blog](https://technology.riotgames.com/news/story-fog-and-war) post.
@@ -17,6 +18,8 @@ The method consist of several steps.
 *  From the visibility information we create low resolution binary texture that is then being sent to an upscaling shader which uses lookup texture to identify upscaling pattern. (As described in the [blog](https://technology.riotgames.com/news/story-fog-and-war) post).
 * Next the high resolution output is being blurred using separable Gaussian filter with linear sampling.
 * The final result is rendered on a flat plane with transparent shader.
+## Screenshot
+![](https://i.imgur.com/wS3dVVb.png)
 ## Credits
 Riot Games blog post:
  (https://technology.riotgames.com/news/story-fog-and-war).
@@ -29,5 +32,3 @@ Rounded corners shader for Unity UI:
 
 ## License
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
